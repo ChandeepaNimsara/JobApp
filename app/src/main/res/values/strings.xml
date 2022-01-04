@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">JobApp</string>
+
+    <!--  <string-array name="jobtypes">
+          <item>IT</item>
+          <item>Electronic</item>
+          <item>Business</item>
+          <item>Civil</item>
+          <item>Mechanical</item>
+      </string-array>-->
+</resources>

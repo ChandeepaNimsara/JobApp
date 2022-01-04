@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jobapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JobApp">
+        <activity android:name=".RetrivemechanicalPDFActivity" />
+        <activity android:name=".ApplyFirstMECHANICALJobActivity" />
+        <activity android:name=".CompanyMechanical" />
+        <activity android:name=".RetrivemechanicalDataRecycleView" />
+        <activity android:name=".AdminUseFormechanicalAddPostActivity" />
+        <activity android:name=".RetrivecivilPDFActivity" />
+        <activity android:name=".ApplyFirstCIVILJobActivity" />
+        <activity android:name=".CompanyCivil_Activity" />
+        <activity android:name=".RetrivecivilDataRecycleView" />
+        <activity android:name=".AdminUseForcivilAddPostActivity" />
+        <activity android:name=".RetrivebusinessPDFActivity" />
+        <activity android:name=".ApplyFirstBUSINESSJobActivity" />
+        <activity android:name=".CompanyBusinessActivity" />
+        <activity android:name=".RetrivebusinessDataRecycleView" />
+        <activity android:name=".AdminUseForbusinessAddPostActivity" />
+        <activity android:name=".CompanyElectronic_Activity" />
+        <activity android:name=".ApplyFirstELECTRONICJobActivity" />
+        <activity android:name=".RetriveelectronicPDFActivity" />
+        <activity android:name=".RetriveelectronicDataRecycleView" />
+        <activity android:name=".AdminUseForelectronicAddPostActivity" />
+        <activity android:name=".StudentGoITActivity" />
+        <activity android:name=".RetriveitPDFActivity" />
+        <activity android:name=".RetriveDataRecycleView" /> <!-- <activity android:name=".GoITListActivity"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <!-- <activity android:name=".ITAllListActivity"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity android:name=".ApplyFirstITJobActivity" />
+        <activity android:name=".AdminUseForAddPostActivity" />
+        <activity android:name=".addpostActivity" />
+        <activity android:name=".company_postActivity" />
+        <activity android:name=".profileActivity" />
+        <activity android:name=".registerActivity" />
+        <activity android:name=".loginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

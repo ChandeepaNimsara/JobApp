@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ApplyFirstITJobActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="8">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_anime"
+                        android:layout_width="80dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="10dp"
+                       android:layout_marginLeft="15dp"
+                        app:maxImageSize="20dp"
+                        android:src="@drawable/student" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/student_out"
+                                android:text="If you are applying for this it job, enter the CV below"
+                                android:textSize="20dp"
+                                android:textColor="@color/black"
+                                android:gravity="center">
+                            </TextView>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Select your PDF mode CV"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:id="@+id/notification">
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:text="Upload CV"
+                android:textSize="30dp"
+                android:layout_marginLeft="55dp"
+                android:id="@+id/uploadCV"
+                android:layout_marginTop="2dp"
+                android:backgroundTint="@color/up_cv">
+            </Button>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

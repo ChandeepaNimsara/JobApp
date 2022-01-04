@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1063901935972",
+    "firebase_url": "https://my-job-app-73935-default-rtdb.firebaseio.com",
+    "project_id": "my-job-app-73935",
+    "storage_bucket": "my-job-app-73935.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063901935972:android:5a671dc594d63ff56ea271",
+        "android_client_info": {
+          "package_name": "com.example.jobapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063901935972-kv15pm2nvlbg5ai6f5l6ufehen6vvciu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcDa-PPTgFZQmvPq6P2V7_TJfrvOT3Clc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063901935972-kv15pm2nvlbg5ai6f5l6ufehen6vvciu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
